@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daria Elikova</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    
+</head>
+<body>
+    <header class="header container-fluid">
+        <nav class="header__nav row">
+            <div class="header__logo col-lg-4 col-md-4 col-7">
+                <a href="#">Дарья Елыква</a>
+            </div>
+            <div class="header__burger">
+                <span>
+                </span>
+            </div>
+            <div class="header__menu col-lg-7 col-md-7 col-8">
+                <ul>
+                    <li class="header__link"><a href="#portfolio">Портфолио</a></li>
+                    <li class="header__link"><a href="#about">Обо мне</a></li>
+                    <li class="header__link"><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="header__btn">
+                    <a href="#order">Записаться</a>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content row justify-content-center">
+            <div class="header__img">
+                <img src="img/Daria.jpg" alt="">
+                <div class="header__title">
+                    <h2>Фотограф</h2>
+                </div>
+                <div class="header__subtitle">
+                    <p>Создаю красивые кадры на Iphone, не хуже чем на фотоаппарат</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio container-fluid">
+        <div class="row portfolio__title justify-content-center">
+            <h3>Портфолио</h3>
+        </div>
+        <div class="row portfolio__list">
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/1.jpg" alt="">
+            </div>
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/2.jpg" alt="">
+            </div>
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/3.jpg" alt="">
+            </div>
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/4.jpg" alt="">
+            </div>
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/5.jpg" alt="">
+            </div>
+            <div class="portfolio__item">
+                <img class="lazyload" src="data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7" data-src="img/portfolio/6.jpg" alt="">
+            </div>
+
+            <div class="after-posts"></div>
+        </div>
+        <div class="portfolio__btn col text-center">
+            <button class="btn load-more" type="button" >
+              Больше работ
+              <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="about container-fluid">
+        <div class="about__content">
+            <div class="row about__title justify-content-center">
+                <h3>Обо мне</h3>
+            </div>
+            <div class="row">
+                <div class="about__subtitle col-lg-7 col-md-7 col-sm-10">
+                    <p>Привет, меня зовут Даша, я начинающий фотограф</p>
+                    <p>Я могу создать красивые кадры с помощью Iphone, не хуже чем на фотоаппарат</p>
+                    <p>Приходи получить яркие фотографии и хорошее настроение</p>
+                </div>
+                <div class="about__img col-lg-5 col-md-5 col-sm-5">
+                    <img src="img/me.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="contacts" class="contacts container-fluid">
+        <div class="row contacts__title justify-content-center">
+            <h3>Контакты</h3>
+        </div>
+        <div class="contacts__content">
+            <div class="contacts__subtitle text-center">
+                <h4>Россия, г. Челябинск</h4>
+            </div>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <a href="">
+                        <img src="img/icons/inst.svg" alt="">
+                        <p id="inst">dashaelukova28</p>    
+                    </a>     
+                </li>
+                <li class="contacts__item">
+                    <a href="">
+                        <img src="img/icons/vk.svg" alt="">
+                        <p>dashaelukova</p>
+                    </a> 
+                </li>
+                <li class="contacts__item">
+                    <a href="">
+                        <img src="img/icons/whatsapp.svg" alt="">
+                        <p>89822851233</p>
+                    </a>   
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="order" class="order container-fluid">
+        <div class="row order__title justify-content-center">
+            <h3>Запишитесь на фотосессию</h3>
+        </div>
+        <div class="row order__subtitle justify-content-center">
+            <p>Оставьте свои контактные данные и я свяжусь с вами</p>
+        </div>
+        <div class="order__form justify-content-center row">
+            <form action="https://formspree.io/elikova.daria@mail.ru" method="POST">
+                <div class="left">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="surname" placeholder="Фамилия">
+                    <span class="error text-center"></span>
+                    <input class="email" type="text" name="_replyto" placeholder="E-mail">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Примечание к заказу" class="text-center"></textarea>
+                    <input class="btn-submit" type="submit" value="Отправить заявку" value="Отправить заявку">
+                </div>
+            </form>
+        </div>
+        <div class="row order__subtitle order__price justify-content-center">
+            <p>Цена за любую фотосессию - 500р</p>
+        </div>
+    </section>
+
+    <section class="footer container-fluid">
+        <div class="footer__title row justify-content-center align-items-center">
+           <p>Design by Kirill Smirnov</p> 
+        </div>
+        
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
